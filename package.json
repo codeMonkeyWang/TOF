@@ -1,14 +1,28 @@
 {
 	"name": "TOF",
-	"description": " click 'true'to'false' or  'flase'to 'true' ",
-	"version": "0.1.0",
+	"description": " True or false,that is the question.  ",
+	"version": "0.2.0",
 	"publisher": "wangwang",
 	"engines": {
 		"vscode": "^0.10.1"
 	},
 	"categories": [
-		"Other","Debuggers","Language","Snippets","Linters"
+		"Languages", "Snippets", "Linters", "Debuggers", "Other"
 	],
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/codeMonkeyWang/TOF"
+	},
+	"bugs": {
+		"url": "https://github.com/codeMonkeyWang/TOF/issues"
+	},
+	"author": {
+		"name": "Will Wang",
+		"email": "wangyongwang12@gmail.com",
+		"url": "wangwanggame.com"
+	},
+	"icon": "icon.png",
 	"activationEvents": [
 		"onCommand:extension.TOF-Run"
 	],
