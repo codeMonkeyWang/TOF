@@ -1,0 +1,34 @@
+{
+	"name": "TOF",
+	"description": " click 'true'to'false' or  'flase'to 'true' ",
+	"version": "0.1.0",
+	"publisher": "wangwang",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Other","Debuggers","Language","Snippets","Linters"
+	],
+	"activationEvents": [
+		"onCommand:extension.TOF-Run"
+	],
+	"main": "./extension",
+	"contributes": {
+		"commands": [
+			{
+			"command": "extension.TOF-Run",
+			"title": "TOF state change"
+			}
+		],
+		"keybindings": [
+            {
+                "command": "extension.TOF-Run",
+                "key": "ctrl+t ctrl+r",
+				"mac": "cmd+t cmd+r"
+            }
+        ]
+	},
+	"devDependencies": {
+		"vscode": "0.10.x"
+	}
+}
